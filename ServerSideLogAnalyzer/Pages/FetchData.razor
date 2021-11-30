@@ -1,0 +1,46 @@
+﻿@page "/fetchdata"
+
+@using ServerSideLogAnalyzer.Data
+@inject WeatherForecastService ForecastService
+
+<h1>Analýza Dát</h1>
+
+<p>Tu môžete nájsť prehľad dát z logu ktorý ste nahrali, a taktiež s ním pracovať</p>
+
+@if (forecasts == null)
+{
+    <p><em>Načítava sa...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Dátum a čas</th>
+                <th>Popis</th>
+                <th>Bonus info</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeatherForecast[] forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+}

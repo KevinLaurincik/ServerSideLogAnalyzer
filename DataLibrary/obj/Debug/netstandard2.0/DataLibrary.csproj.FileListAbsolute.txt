@@ -1,0 +1,9 @@
+C:\Users\kevin\Desktop\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\Users\kevin\Desktop\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\kevin\Desktop\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\kevin\Desktop\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\kevin\Desktop\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\kevin\Desktop\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb

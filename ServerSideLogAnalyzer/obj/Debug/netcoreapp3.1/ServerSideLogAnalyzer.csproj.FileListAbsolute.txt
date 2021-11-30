@@ -1,0 +1,119 @@
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.exe
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.deps.json
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.runtimeconfig.json
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.dll
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.pdb
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.Views.dll
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.Views.pdb
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.AssemblyInfo.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorComponent.input.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\ServerSideLogAnalyzer.dll
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.TagHelpers.input.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.TagHelpers.output.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorCoreGenerate.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorAssemblyInfo.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorAssemblyInfo.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorTargetAssemblyInfo.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorTargetAssemblyInfo.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.Views.pdb
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\staticwebassets\ServerSideLogAnalyzer.StaticWebAssets.Manifest.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\staticwebassets\ServerSideLogAnalyzer.StaticWebAssets.xml
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.dll
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.pdb
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.genruntimeconfig.cache
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.csproj.CopyComplete
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ImportLog.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\ImportLog.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ContactInfo.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\ContactInfo.razor.g.cs
+C:\Users\kevin\Desktop\Vysoká\Moja vysoká\3.ročník\Modelovanie a simulácia\MonteCarlo\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.exe
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.deps.json
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.runtimeconfig.json
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.runtimeconfig.dev.json
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.pdb
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.Views.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ServerSideLogAnalyzer.Views.pdb
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\ZstdNet.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\DataLibrary.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\bin\Debug\netcoreapp3.1\DataLibrary.pdb
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.csprojAssemblyReference.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.AssemblyInfo.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorComponent.input.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ContactInfo.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ImportLog.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\RazorDeclaration\ServerSideLogAnalyzer.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.TagHelpers.input.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.TagHelpers.output.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorCoreGenerate.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\ContactInfo.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\ImportLog.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorAssemblyInfo.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorAssemblyInfo.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorTargetAssemblyInfo.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.RazorTargetAssemblyInfo.cs
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.Views.pdb
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.csproj.CopyComplete
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\staticwebassets\ServerSideLogAnalyzer.StaticWebAssets.Manifest.cache
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\staticwebassets\ServerSideLogAnalyzer.StaticWebAssets.xml
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.dll
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.pdb
+C:\Users\kevin\Desktop\ServerSideLogAnalyzer\obj\Debug\netcoreapp3.1\ServerSideLogAnalyzer.genruntimeconfig.cache

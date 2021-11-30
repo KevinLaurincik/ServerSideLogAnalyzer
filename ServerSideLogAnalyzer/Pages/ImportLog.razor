@@ -1,0 +1,157 @@
+﻿@page "/Importlog"
+
+@using DataLibrary
+@using ServerSideLogAnalyzer.Models
+@using Microsoft.Extensions.Configuration
+@inject IDataAccess _data
+@inject IConfiguration _config
+
+<link href="css/MyStyles/MyStyles.css" rel="stylesheet" />
+
+<h1>Tu nahrajte Log!</h1>
+
+<form>
+    <label for="myfile">Vyberte súbory:</label>
+    <input type="file" id="myfile" name="myfile" multiple><br><br>
+    <input type="submit">
+</form>
+
+<button class="btn btn-primary" @onclick="InsertData">Insert</button>
+<button class="btn btn-warning" @onclick="UpdateData">Update</button>
+<button class="btn btn-danger" @onclick="DeleteData">Delete</button>
+
+
+@if (logs == null)
+{
+    <p><em>Načítava sa...</em></p>
+}
+else
+{
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#ID</th>
+                <th scope="col">Date & Time</th>
+                <th scope="col">Discription</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in logs)
+            {
+                <tr>
+                    <th scope="row">@item.idLogs</th>
+                    <td>@item.Date</td>
+                    <td>@item.Discription</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Insert</h1>
+            <p>
+                idValue
+            </p>
+            <input value="@idValue" @oninput="(EventArgs) => { SetValueId(EventArgs.Value.ToString()); }" />
+
+            <p>
+                dateValue
+            </p>
+            <input value="@dateValue" @oninput="(EventArgs) => { SetValueDate(EventArgs.Value.ToString()); }" />
+
+            <p>
+                discriptionValue
+            </p>
+            <input value="@discriptionValue" @oninput="(EventArgs) => { SetValueDiscription(EventArgs.Value.ToString()); }" />
+        </div>
+        <div class="col">
+            <h1>Update</h1>
+            <p>
+                idValue
+            </p>
+            <input value="@idValue" @oninput="(EventArgs) => { SetValueId(EventArgs.Value.ToString()); }" />
+
+            <p>
+                dateValue
+            </p>
+            <input value="@dateValue" @oninput="(EventArgs) => { SetValueDate(EventArgs.Value.ToString()); }" />
+
+            <p>
+                discriptionValue
+            </p>
+            <input value="@discriptionValue" @oninput="(EventArgs) => { SetValueDiscription(EventArgs.Value.ToString()); }" />
+        </div>
+        <div class="col">
+            <h1>Delete</h1>
+            <p>
+                idValue
+            </p>
+            <input value="@idValue" @oninput="(EventArgs) => { SetValueId(EventArgs.Value.ToString()); }" />
+        </div>
+    </div>
+</div>
+
+
+@code {
+    string idValue;
+    string discriptionValue = "";
+    string dateValue = "";
+
+    private void SetValueDiscription(string Value)
+    {
+        discriptionValue = Value;
+    }
+
+    private void SetValueDate(string Value)
+    {
+        dateValue = Value;
+    }
+
+    private void SetValueId(string Value)
+    {
+        idValue = Value;
+    }
+
+    List<LogModel> logs;
+
+    private async Task InsertData()
+    {
+        string sql = "insert into logs (idLogs, Date, Discription) values (@idLogs, @Date, @Discription);";
+
+        await _data.SaveData(sql, new { idLogs = int.Parse(idValue), Date = dateValue, Discription = discriptionValue }, _config.GetConnectionString("default"));
+
+        await OnInitializedAsync();
+    }
+
+    private async Task UpdateData()
+    {
+        string sql = "update logs set Date = @Date,Discription = @Discription where idLogs = @idLogs";
+
+        await _data.SaveData(sql, new { idLogs = int.Parse(idValue), Date = dateValue, Discription = discriptionValue }, _config.GetConnectionString("default"));
+
+        await OnInitializedAsync();
+    }
+
+    private async Task DeleteData()
+    {
+        string sql = "delete from logs where idLogs = @idLogs";
+
+        await _data.SaveData(sql, new { idLogs = int.Parse(idValue) }, _config.GetConnectionString("default"));
+
+        await OnInitializedAsync();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "select * from logs";
+        logs = await _data.LoadData<LogModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+    }
+
+}
+

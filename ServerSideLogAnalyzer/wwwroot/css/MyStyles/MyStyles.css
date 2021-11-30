@@ -1,0 +1,57 @@
+﻿#infoheader {
+    color: #000066;
+    font-size: 50px;
+}
+
+#introductiontext {
+    color: #00004d;
+    font-size: 25px;
+}
+
+#introductionheader {
+    font-family: fantasy;
+    color: #000066;
+    font-weight: bold;
+}
+
+.infocomponents {
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+}
+
+.nexttoinfocomponents {
+    float: left;
+    padding-top: 10px;
+    margin-left: 1%;
+}
+
+.textunderline {
+    text-decoration: underline;
+}
+
+input {
+    width: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+button {
+    border: 2px solid #000066;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.infoallinment {
+    width: 100%;
+    height: 50px;
+    float: left
+}
+
+#loginheader {
+    font-size: 30px;
+    color: #000066;
+}
