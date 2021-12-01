@@ -1,4 +1,6 @@
 ﻿@page "/login"
+@inject IJSRuntime JsRunTime
+
 <link href="css/MyStyles/MyStyles.css" rel="stylesheet" />
 
 <div>
@@ -14,3 +16,19 @@
 
 </div>
 
+@code{
+
+    ElementReference InputToFocus;
+
+
+    async Task Focus()
+    {
+        await JsRunTime.InvokeVoidAsync("focusOnElement", InputToFocus);
+    }
+
+    async Task ShowAlert()
+    {
+        await JsRunTime.InvokeVoidAsync("createAlert");
+    }
+
+}

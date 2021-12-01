@@ -38,6 +38,15 @@ input {
     width: 80%;
 }
 
+.crudwidth {
+    width: 40%;
+}
+
+.detailsdiv {
+    width: 25%;
+    float: right;
+}
+
 .bold {
     font-weight: bold;
 }
