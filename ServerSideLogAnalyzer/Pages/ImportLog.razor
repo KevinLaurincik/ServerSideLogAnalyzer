@@ -16,10 +16,11 @@
     <input type="submit">
 </form>
 
-<button class="btn btn-primary" @onclick="InsertData">Insert</button>
-<button class="btn btn-warning" @onclick="UpdateData">Update</button>
-<button class="btn btn-danger" @onclick="DeleteData">Delete</button>
+<p>
 
+</p>
+
+<p class="display-2">Poznámky k logom:</p>
 
 @if (logs == null)
 {
@@ -41,7 +42,7 @@ else
             {
                 <tr>
                     <th scope="row">@item.idLogs</th>
-                    <td>@item.Date</td>
+                    <td>@item.Date.ToString("MM/dd/yyyy")</td>
                     <td>@item.Discription</td>
                 </tr>
             }
@@ -49,73 +50,70 @@ else
     </table>
 }
 
-
-
 <div class="container">
     <div class="row">
-        <div class="col">
-            <h1>Insert</h1>
-            <p>
-                idValue
-            </p>
-            <input value="@idValue" @oninput="(EventArgs) => { SetValueId(EventArgs.Value.ToString()); }" />
+        <div class="col-sm">
+            <EditForm Model="@_info" OnValidSubmit="@HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
 
-            <p>
-                dateValue
-            </p>
-            <input value="@dateValue" @oninput="(EventArgs) => { SetValueDate(EventArgs.Value.ToString()); }" />
+                <InputNumber id="idValueInsert" @bind-Value="_info.idValueInsert" />
+                <InputDate id="ValueDateInsert" @bind-Value="_info.dateValueInsert" />
+                <InputText id="ValueInsert" @bind-Value="_info.discriptionValueInsert" />
+                <button type="submit" @onclick="InsertData">Insert</button>
 
-            <p>
-                discriptionValue
-            </p>
-            <input value="@discriptionValue" @oninput="(EventArgs) => { SetValueDiscription(EventArgs.Value.ToString()); }" />
+            </EditForm>
         </div>
-        <div class="col">
-            <h1>Update</h1>
-            <p>
-                idValue
-            </p>
-            <input value="@idValue" @oninput="(EventArgs) => { SetValueId(EventArgs.Value.ToString()); }" />
+        <div class="col-sm">
+            <EditForm Model="@_infoUpdate" OnValidSubmit="@HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
 
-            <p>
-                dateValue
-            </p>
-            <input value="@dateValue" @oninput="(EventArgs) => { SetValueDate(EventArgs.Value.ToString()); }" />
+                <InputNumber id="idValueUpdate" @bind-Value="_infoUpdate.idValueUpdate" />
+                <InputDate id="ValueDateUpdate" @bind-Value="_infoUpdate.dateValueUpdate" />
+                <InputText id="ValueUpdate" @bind-Value="_infoUpdate.discriptionValueUpdate" />
+                <button type="submit" @onclick="UpdateData">Update</button>
 
-            <p>
-                discriptionValue
-            </p>
-            <input value="@discriptionValue" @oninput="(EventArgs) => { SetValueDiscription(EventArgs.Value.ToString()); }" />
+            </EditForm>
         </div>
-        <div class="col">
-            <h1>Delete</h1>
-            <p>
-                idValue
-            </p>
-            <input value="@idValue" @oninput="(EventArgs) => { SetValueId(EventArgs.Value.ToString()); }" />
+        <div class="col-sm">
+            <EditForm Model="@_infoDelete" OnValidSubmit="@HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <p>Enter ID:</p>
+                <InputNumber id="idValueDelete" @bind-Value="_infoDelete.idValueDelete" />
+                <button type="submit" @onclick="DeleteData">Delete</button>
+
+            </EditForm>
         </div>
     </div>
 </div>
 
-
 @code {
-    string idValue;
-    string discriptionValue = "";
-    string dateValue = "";
 
-    private void SetValueDiscription(string Value)
+    private void HandleValidSubmit()
     {
-        discriptionValue = Value;
+        // Process the valid form
     }
 
-    private void SetValueDate(string Value)
+    public class InfoInsert
     {
-        dateValue = Value;
+        public int idValueInsert { get; set; }
+        public DateTime dateValueInsert { get; set; }
+        public string discriptionValueInsert { get; set; }
     }
 
-    private void SetValueId(string Value)
+    public class InfoUpdate
     {
-        idValue = Value;
+        public int idValueUpdate { get; set; }
+        public DateTime dateValueUpdate { get; set; }
+        public string discriptionValueUpdate { get; set; }
+    }
+
+    public class InfoDelete
+    {
+        public int idValueDelete { get; set; }
     }
 
     List<LogModel> logs;
@@ -124,16 +122,17 @@ else
     {
         string sql = "insert into logs (idLogs, Date, Discription) values (@idLogs, @Date, @Discription);";
 
-        await _data.SaveData(sql, new { idLogs = int.Parse(idValue), Date = dateValue, Discription = discriptionValue }, _config.GetConnectionString("default"));
+        await _data.SaveData(sql, new { idLogs = _info.idValueInsert, Date = _info.dateValueInsert, Discription = _info.discriptionValueInsert }, _config.GetConnectionString("default"));
 
         await OnInitializedAsync();
+
     }
 
     private async Task UpdateData()
     {
         string sql = "update logs set Date = @Date,Discription = @Discription where idLogs = @idLogs";
 
-        await _data.SaveData(sql, new { idLogs = int.Parse(idValue), Date = dateValue, Discription = discriptionValue }, _config.GetConnectionString("default"));
+        await _data.SaveData(sql, new { idLogs = _infoUpdate.idValueUpdate, Date = _infoUpdate.dateValueUpdate, Discription = _infoUpdate.discriptionValueUpdate }, _config.GetConnectionString("default"));
 
         await OnInitializedAsync();
     }
@@ -142,7 +141,7 @@ else
     {
         string sql = "delete from logs where idLogs = @idLogs";
 
-        await _data.SaveData(sql, new { idLogs = int.Parse(idValue) }, _config.GetConnectionString("default"));
+        await _data.SaveData(sql, new { idLogs = _infoDelete.idValueDelete }, _config.GetConnectionString("default"));
 
         await OnInitializedAsync();
     }
@@ -152,6 +151,10 @@ else
         string sql = "select * from logs";
         logs = await _data.LoadData<LogModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
     }
+
+    private InfoInsert _info { get; set; } = new InfoInsert();
+    private InfoUpdate _infoUpdate { get; set; } = new InfoUpdate();
+    private InfoDelete _infoDelete { get; set; } = new InfoDelete();
 
 }
 
